@@ -1,10 +1,10 @@
 `include "224decoder.v"
 module DEC224_TB;
   // Your inputs
-  reg 	[1:0] in;
-  reg 	enable;
+  reg [1:0] in;
+  reg enable;
   // Your outputs
-  reg 	[3:0] out;
+  wire [3:0] out;
 
   // Clock
   integer ctr;

@@ -1,4 +1,4 @@
-module decoder_using_assign (in, enable, out);
+module DEC224(in, enable, out);
   input 	[1:0] in;
   input  	enable; 
   output 	[3:0] out; 
