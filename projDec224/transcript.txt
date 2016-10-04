@@ -1,0 +1,9 @@
+# At time: 0: in0, in1, enable: xxx; out0, out1, out2, out3: xxxx
+# At time: 10: in0, in1, enable: 000; out0, out1, out2, out3: 0000
+# At time: 20: in0, in1, enable: 001; out0, out1, out2, out3: 1000
+# At time: 30: in0, in1, enable: 010; out0, out1, out2, out3: 0000
+# At time: 40: in0, in1, enable: 011; out0, out1, out2, out3: 0010
+# At time: 50: in0, in1, enable: 100; out0, out1, out2, out3: 0000
+# At time: 60: in0, in1, enable: 101; out0, out1, out2, out3: 0100
+# At time: 70: in0, in1, enable: 110; out0, out1, out2, out3: 0000
+# At time: 80: in0, in1, enable: 111; out0, out1, out2, out3: 0001

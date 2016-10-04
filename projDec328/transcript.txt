@@ -1,0 +1,17 @@
+# At time: 0: in0, in1, in2, enable: xxxx; out0, out1, out2, out3, out4, out5, out6, out7: xxxxxxxx
+# At time: 10: in0, in1, in2, enable: 0000; out0, out1, out2, out3, out4, out5, out6, out7: 00000000
+# At time: 20: in0, in1, in2, enable: 0001; out0, out1, out2, out3, out4, out5, out6, out7: 10000000
+# At time: 30: in0, in1, in2, enable: 0010; out0, out1, out2, out3, out4, out5, out6, out7: 00000000
+# At time: 40: in0, in1, in2, enable: 0011; out0, out1, out2, out3, out4, out5, out6, out7: 00001000
+# At time: 50: in0, in1, in2, enable: 0100; out0, out1, out2, out3, out4, out5, out6, out7: 00000000
+# At time: 60: in0, in1, in2, enable: 0101; out0, out1, out2, out3, out4, out5, out6, out7: 00100000
+# At time: 70: in0, in1, in2, enable: 0110; out0, out1, out2, out3, out4, out5, out6, out7: 00000000
+# At time: 80: in0, in1, in2, enable: 0111; out0, out1, out2, out3, out4, out5, out6, out7: 00000010
+# At time: 90: in0, in1, in2, enable: 1000; out0, out1, out2, out3, out4, out5, out6, out7: 00000000
+# At time: 100: in0, in1, in2, enable: 1001; out0, out1, out2, out3, out4, out5, out6, out7: 01000000
+# At time: 110: in0, in1, in2, enable: 1010; out0, out1, out2, out3, out4, out5, out6, out7: 00000000
+# At time: 120: in0, in1, in2, enable: 1011; out0, out1, out2, out3, out4, out5, out6, out7: 00000100
+# At time: 130: in0, in1, in2, enable: 1100; out0, out1, out2, out3, out4, out5, out6, out7: 00000000
+# At time: 140: in0, in1, in2, enable: 1101; out0, out1, out2, out3, out4, out5, out6, out7: 00010000
+# At time: 150: in0, in1, in2, enable: 1110; out0, out1, out2, out3, out4, out5, out6, out7: 00000000
+# At time: 160: in0, in1, in2, enable: 1111; out0, out1, out2, out3, out4, out5, out6, out7: 00000001
