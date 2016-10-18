@@ -1,0 +1,11 @@
+# At time: 0: cin, a, b: x   x   x; sum, cout:   x x
+# At time: 10: cin, a, b: 0   0   0; sum, cout:   0 0
+# At time: 20: cin, a, b: 0   1   0; sum, cout:   1 0
+# At time: 30: cin, a, b: 1   0  14; sum, cout:  15 0
+# At time: 40: cin, a, b: 1  45  74; sum, cout: 120 0
+# At time: 50: cin, a, b: 0 198  54; sum, cout: 252 0
+# At time: 60: cin, a, b: 0 249   7; sum, cout:   0 1
+# At time: 70: cin, a, b: 1 156 121; sum, cout:  22 1
+# At time: 80: cin, a, b: 1 123 177; sum, cout:  45 1
+# At time: 90: cin, a, b: 0 255 255; sum, cout: 254 1
+# At time: 100: cin, a, b: 1 255 255; sum, cout: 255 1
