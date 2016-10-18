@@ -1,0 +1,11 @@
+# At time: 0: add_sub, a, b: x   x   x; sum, cout:   x x; OV: x
+# At time: 10: add_sub, a, b: 0   0   0; sum, cout:   0 0; OV: 0
+# At time: 20: add_sub, a, b: 1   4   2; sum, cout:   2 0; OV: 0
+# At time: 30: add_sub, a, b: 0   5  14; sum, cout:  19 0; OV: 0
+# At time: 40: add_sub, a, b: 0  45  74; sum, cout: 119 0; OV: 0
+# At time: 50: add_sub, a, b: 0 198  54; sum, cout: 252 0; OV: 0
+# At time: 60: add_sub, a, b: 1 249   7; sum, cout: 242 0; OV: 0
+# At time: 70: add_sub, a, b: 1 156 121; sum, cout:  35 0; OV: 1
+# At time: 80: add_sub, a, b: 1 123   0; sum, cout: 123 0; OV: 0
+# At time: 90: add_sub, a, b: 1 255 255; sum, cout:   0 0; OV: 0
+# At time: 100: add_sub, a, b: 1   0 255; sum, cout:   1 1; OV: 0
