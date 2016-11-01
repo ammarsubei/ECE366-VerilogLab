@@ -1,0 +1,15 @@
+# At time: 0: clock: 0; set, reset, d: 0 0 0; q: x
+# At time: 10: clock: 1; set, reset, d: 0 0 0; q: 0
+# At time: 20: clock: 0; set, reset, d: 1 0 0; q: 0
+# At time: 30: clock: 1; set, reset, d: 1 0 0; q: 1
+# At time: 40: clock: 0; set, reset, d: 0 1 0; q: 1
+# At time: 50: clock: 1; set, reset, d: 0 1 0; q: 0
+# At time: 60: clock: 0; set, reset, d: 1 1 0; q: 0
+# At time: 70: clock: 1; set, reset, d: 1 1 0; q: 0
+# At time: 80: clock: 0; set, reset, d: 1 1 1; q: 0
+# At time: 90: clock: 1; set, reset, d: 1 1 1; q: 1
+# At time: 100: clock: 0; set, reset, d: 0 1 1; q: 1
+# At time: 110: clock: 1; set, reset, d: 0 1 1; q: 0
+# At time: 120: clock: 0; set, reset, d: 0 0 1; q: 0
+# At time: 130: clock: 1; set, reset, d: 0 0 1; q: 1
+# At time: 140: clock: 0; set, reset, d: 0 0 0; q: 1
