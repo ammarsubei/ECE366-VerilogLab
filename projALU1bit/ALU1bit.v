@@ -1,11 +1,11 @@
-module ALU1bit(clock, inA, inB, Cin, binv, less, op, result);
+module ALU1bit(clock, inA, inB, Cin, binv, less, op, Cout, result);
 
   input clock, inA, inB, Cin, binv, less;
   input [1:0] op;
   
-  output reg result;
+  output reg result, Cout;
 
-  reg newB, Cout;
+  reg newB;
 
   always @ (posedge clock)
   begin
@@ -18,8 +18,10 @@ module ALU1bit(clock, inA, inB, Cin, binv, less, op, result);
       result = inA & newB;
     else if(op == 2'b01)
       result = inA | newB;
-    else if(op == 2'b10)
+    else if(op == 2'b10) begin
       result = inA ^ newB ^ Cin;
+      Cout = (inA & newB) | (inA & Cin) | (newB & Cin);
+    end
     else if(op == 2'b11) begin
       if(inA == newB)
         result = less;
