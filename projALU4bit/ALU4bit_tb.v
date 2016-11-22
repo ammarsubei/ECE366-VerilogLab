@@ -1,5 +1,4 @@
 `include "ALU4bit.v"
-
 module ALU4bit_TB;
 
   reg clock, Cin, binv, less;
@@ -33,12 +32,17 @@ module ALU4bit_TB;
     #20 op = 3'b100;
     #20 inA = 4'b1011;
     #20 inB = 4'b0001;
+    #20 Cin = 1;
+    binv = 1;
+    less = 1;
+    op = 3'b010;
+    #20 
     #30
     #10 $stop;
   end
 
   initial begin
-    $monitor("At time: %g: clock: %b; opCode: %b; Cin, binv, less: %b %b %b; inA, inB: %d %d; result: %d; Cout: %b", $time, clock, op, Cin, binv, less, inA, inB, result, Cout);
+    $monitor("At time: %g: clock: %b; Cin, binv, less: %b %b %b; opCode: %b; inA, inB: %d %d; result: %d; Cout: %b", $time, clock, Cin, binv, less, op, inA, inB, result, Cout);
   end
   
 
